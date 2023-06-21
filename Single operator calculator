@@ -1,0 +1,12 @@
+#include<iostream>
+int main(){
+double num1,num2;
+std::cout<<"Hello, I'm here to add two numbers of your coices."
+<<std::endl;
+std::cout<<"Enter your first number = ";
+std::cin>>num1;
+std::cout<<"Now enter your second number = ";
+std::cin>>num2;
+std::cout<<"The answer is = "<<num1+num2;
+return 0;
+}
